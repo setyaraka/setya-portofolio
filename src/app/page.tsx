@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
 import LayoutHeader from "@/components/LayoutHeader";
+import Project from "@/components/Project";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <LayoutHeader />
       <Hero />
       <About />
+      <Project />
     </div>
   );
 }

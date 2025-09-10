@@ -16,11 +16,11 @@ export default function LayoutHeader() {
                 </button>
                 
                 <ul id="navLinks" className="hidden md:flex items-center gap-6 text-sm">
-                    <li><a className="hover:text-accent focus-ring rounded" href="#about">About</a></li>
-                    <li><a className="hover:text-accent focus-ring rounded" href="#projects">Projects</a></li>
-                    <li><a className="hover:text-accent focus-ring rounded" href="#skills">Skills</a></li>
-                    <li><a className="hover:text-accent focus-ring rounded" href="#experience">Experience</a></li>
-                    <li><a className="hover:text-accent focus-ring rounded" href="#contact">Contact</a></li>
+                    <li><a className="hover:text-[#2563EB] focus-ring rounded" href="#about">About</a></li>
+                    <li><a className="hover:text-[#2563EB] focus-ring rounded" href="#projects">Projects</a></li>
+                    <li><a className="hover:text-[#2563EB] focus-ring rounded" href="#skills">Skills</a></li>
+                    <li><a className="hover:text-[#2563EB] focus-ring rounded" href="#experience">Experience</a></li>
+                    <li><a className="hover:text-[#2563EB] focus-ring rounded" href="#contact">Contact</a></li>
                     <li>
                         <a href="#" className="inline-flex items-center gap-2 rounded-xl px-4 py-2 bg-red-500 text-white hover:bg-[#991B1B] transition focus-ring">
                         Download CV
@@ -36,11 +36,11 @@ export default function LayoutHeader() {
             { open && (
                 <div id="drawer" className="md:hidden border-t border-border border-[#ebeef1] bg-[#f9fafb]">
                     <div className="max-w-6xl mx-auto px-6 py-4">
-                        <a href="#about" className="block py-2 hover:text-accent">About</a>
-                        <a href="#projects" className="block py-2 hover:text-accent">Projects</a>
-                        <a href="#skills" className="block py-2 hover:text-accent">Skills</a>
-                        <a href="#experience" className="block py-2 hover:text-accent">Experience</a>
-                        <a href="#contact" className="block py-2 hover:text-accent">Contact</a>
+                        <a href="#about" className="block py-2 hover:text-[#2563EB]">About</a>
+                        <a href="#projects" className="block py-2 hover:text-[#2563EB]">Projects</a>
+                        <a href="#skills" className="block py-2 hover:text-[#2563EB]">Skills</a>
+                        <a href="#experience" className="block py-2 hover:text-[#2563EB]">Experience</a>
+                        <a href="#contact" className="block py-2 hover:text-[#2563EB]">Contact</a>
                     </div>
                 </div>        
             )}

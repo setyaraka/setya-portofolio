@@ -13,7 +13,7 @@ export default function Hero(){
                     </p>
                     <div className="mt-8 flex flex-wrap gap-3">
                         <a href="#projects" className="rounded-xl px-5 py-3 bg-red-500 text-white hover:bg-[#991B1B] active:bg-[#7F1D1D] transition focus-ring">View Projects</a>
-                        <a href="mailto:you@email.com" className="rounded-xl px-5 py-3 border border-border border-[#ebeef1] hover:text-accent hover:border-accent transition focus-ring">Hire Me</a>
+                        <a href="mailto:you@email.com" className="rounded-xl px-5 py-3 border border-border border-[#ebeef1] hover:border-[#2563EB] hover:text-[#2563EB] hover:border-accent transition focus-ring">Hire Me</a>
                     </div>
                     
                     <div className="mt-10 flex gap-6 text-sm text-muted">
