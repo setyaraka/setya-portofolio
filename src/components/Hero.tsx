@@ -1,0 +1,35 @@
+export default function Hero(){
+    return (
+        <section className="hero-bg relative">
+            <div className="max-w-6xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <p className="text-sm uppercase tracking-widest text-muted mb-3">Fullstack Developer</p>
+                    <h1 className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl leading-[1.05]">
+                        Hi, I’m <span className="text-red-500">Setya Pangga Raka Pangestu</span>.<br className="hidden sm:block" />
+                        I build elegant, accessible web apps.
+                    </h1>
+                    <p className="mt-5 text-muted max-w-xl">
+                        Focused on React/Next.js, Angular, TypeScript, and delightful user interfaces. Open for remote opportunities.
+                    </p>
+                    <div className="mt-8 flex flex-wrap gap-3">
+                        <a href="#projects" className="rounded-xl px-5 py-3 bg-red-500 text-white hover:bg-[#991B1B] active:bg-[#7F1D1D] transition focus-ring">View Projects</a>
+                        <a href="mailto:you@email.com" className="rounded-xl px-5 py-3 border border-border border-[#ebeef1] hover:text-accent hover:border-accent transition focus-ring">Hire Me</a>
+                    </div>
+                    
+                    <div className="mt-10 flex gap-6 text-sm text-muted">
+                        <div><span className="text-2xl font-bold text-red-500">3</span> Projects</div>
+                        <div><span className="text-2xl font-bold text-red-500">3</span> Years</div>
+                        <div><span className="text-2xl font-bold text-red-500">15</span> Tech Skills</div>
+                    </div>
+                </div>
+                <div className="relative">
+                    <div className="relative mx-auto aspect-square w-72 sm:w-80 rounded-3xl bg-gradient-to-br from-primary/30 to-accent/20 p-1">
+                        <div className="h-full w-full rounded-3xl border border-border border-[#ebeef1] backdrop-blur">
+                            <img src="./assets/raka.jpg" className="h-full w-full object-cover rounded-3xl" alt="Raka Photo" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}

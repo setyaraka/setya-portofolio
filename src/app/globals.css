@@ -1,8 +1,28 @@
 @import "tailwindcss";
 
-:root {
+:root{
   --background: #ffffff;
   --foreground: #171717;
+  --primary:#C81D25;                 /* dipakai di hero-bg */
+  --accent:#2563EB;                   /* dipakai di hero-bg */
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0D1117;
+    --surface:#161B22;
+    --text:#F9FAFB;
+    --muted:#9CA3AF;
+    --primary:#EF4444;
+    --primary-foreground:#0D1117;
+    --secondary:#1F2937;
+    --accent:#3B82F6;
+    --success:#22C55E;
+    --warning:#F59E0B;
+    --danger:#DC2626;
+    --ring:#EF4444;
+    --border:#2D333B;
+  }
 }
 
 @theme inline {
@@ -23,4 +43,14 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-bg {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(239, 68, 68, .25), transparent 60%),
+    radial-gradient(900px 500px at 10% 10%, rgba(59, 130, 246, .20), transparent 60%);
+  /* Progressive enhancement using color-mix + tokens */
+  background:
+    radial-gradient(1200px 600px at 80% -10%, color-mix(in srgb, var(--primary) 25%, transparent), transparent 60%),
+    radial-gradient(900px 500px at 10% 10%, color-mix(in srgb, var(--accent) 20%, transparent), transparent 60%);
 }
