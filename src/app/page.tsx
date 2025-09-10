@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import LayoutHeader from "@/components/LayoutHeader";
 import Project from "@/components/Project";
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Project />
       <Skills />
+      <Experience />
     </div>
   );
 }
