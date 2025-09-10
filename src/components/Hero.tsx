@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero(){
     return (
         <section className="hero-bg relative">
@@ -25,7 +27,12 @@ export default function Hero(){
                 <div className="relative">
                     <div className="relative mx-auto aspect-square w-72 sm:w-80 rounded-3xl bg-gradient-to-br from-primary/30 to-accent/20 p-1">
                         <div className="h-full w-full rounded-3xl border border-border border-[#ebeef1] backdrop-blur">
-                            <img src="./assets/raka.jpg" className="h-full w-full object-cover rounded-3xl" alt="Raka Photo" />
+                            <Image
+                                src={"/assets/raka.jpg"}
+                                fill
+                                className="object-cover rounded-3xl"
+                                alt="Picture of the author"
+                            />
                         </div>
                     </div>
                 </div>
