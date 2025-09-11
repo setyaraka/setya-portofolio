@@ -1,4 +1,19 @@
 export default function Contact(){
+    const media = [
+        {
+            url: "https://www.linkedin.com/in/setyapanggarakapangestu/",
+            name: "LinkedIn"
+        },
+        {
+            url: "https://github.com/setyaraka",
+            name: "GitHub"
+        },
+        {
+            url: "https://www.instagram.com/setyarakap/",
+            name: "Instagram"
+        }
+    ]
+    
     return (
         <section id="contact" className="py-16 md:py-24 bg-[#f9fafb]">
             <div className="max-w-3xl mx-auto px-6">
@@ -13,9 +28,9 @@ export default function Contact(){
                 <button className="justify-self-start rounded-xl px-5 py-3 bg-red-500 text-white text-primary-fg hover:bg-[#991B1B] active:bg-[#7F1D1D] transition focus-ring ">Send Message</button>
             </form>
             <div className="mt-6 flex items-center justify-center gap-4 text-sm">
-                <a className="hover:text-[#2563EB] focus-ring rounded" href="#" target="_blank">LinkedIn</a>
-                <a className="hover:text-[#2563EB] focus-ring rounded" href="#" target="_blank">GitHub</a>
-                <a className="hover:text-[#2563EB] focus-ring rounded" href="#" target="_blank">Twitter</a>
+                { media.map((item, idx) => {
+                    return <a key={idx} className="hover:text-[#2563EB]" href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
+                })}
             </div>
             </div>
         </section>
