@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root{
-  --background: #ffffff;
+  --background: #f9fafb;
   --foreground: #171717;
   --primary:#C81D25;                 /* dipakai di hero-bg */
   --accent:#2563EB;                   /* dipakai di hero-bg */
@@ -46,6 +46,7 @@ body {
 }
 
 .hero-bg {
+  background-color: #f9fafb;
   background:
     radial-gradient(1200px 600px at 80% -10%, rgba(239, 68, 68, .25), transparent 60%),
     radial-gradient(900px 500px at 10% 10%, rgba(59, 130, 246, .20), transparent 60%);
