@@ -26,9 +26,9 @@ export default function LayoutHeader() {
                         Download CV
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <button id="themeToggle" className="rounded-xl px-3 py-2 border border-border border-[#ebeef1] cursor-pointer focus-ring" aria-label="Toggle theme">Dark</button>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
             
