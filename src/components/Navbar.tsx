@@ -1,10 +1,10 @@
 "use client"
 import { useState } from "react"
 
-export default function LayoutHeader() {
+export default function Navbar() {
     const [open, setOpen] = useState(false);
     return (
-        <header className="sticky top-0 z-50 backdrop-blur-sm supports-[backdrop-filter]:bg-[#f9fafb] border-b border-[#ebeef1]">
+        <header className="sticky top-0 z-50 backdrop-blur-sm supports-[backdrop-filter]:bg-[#f9fafb]/70 border-b border-[#ebeef1]">
             <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
                 <a href="#" className="flex items-center gap-2 font-extrabold tracking-tight">
                     <span className="inline-flex h-7 w-7 rounded-lg bg-red-500 text-white items-center justify-center">S</span>
