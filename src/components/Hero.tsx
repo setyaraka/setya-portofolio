@@ -12,7 +12,7 @@ export default function Hero(){
                         I build elegant, scalable web apps end-to-end.
                     </h1>
                     <p className="mt-5 text-muted max-w-xl animate-fadeSlideUp animate-delay-2">
-                        Focused on React/Next.js, Angular, and TypeScript on the frontend — 
+                        Focused on React/Next.js, Angular, and TypeScript on the frontend, 
                         plus NestJS, Prisma, and PostgreSQL on the backend. Open for remote opportunities.
                     </p>
 
