@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { useState } from "react"
 
 export default function Navbar() {
@@ -16,11 +17,31 @@ export default function Navbar() {
                 </button>
                 
                 <ul id="navLinks" className="hidden md:flex items-center gap-6 text-sm">
-                    <li><a className="hover:text-[#2563EB] focus-ring rounded" href="#about">About</a></li>
-                    <li><a className="hover:text-[#2563EB] focus-ring rounded" href="#projects">Projects</a></li>
-                    <li><a className="hover:text-[#2563EB] focus-ring rounded" href="#skills">Skills</a></li>
-                    <li><a className="hover:text-[#2563EB] focus-ring rounded" href="#experience">Experience</a></li>
-                    <li><a className="hover:text-[#2563EB] focus-ring rounded" href="#contact">Contact</a></li>
+                    <li>
+                        <Link className="hover:text-[#2563EB] focus-ring rounded" href="#about" scroll={true}>
+                            About
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="hover:text-[#2563EB] focus-ring rounded" href="#projects" scroll={true}>
+                            Projects
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="hover:text-[#2563EB] focus-ring rounded" href="#skills" scroll={true}>
+                            Skills
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="hover:text-[#2563EB] focus-ring rounded" href="#experience" scroll={true}>
+                            Experience
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="hover:text-[#2563EB] focus-ring rounded" href="#contact" scroll={true}>
+                            Contact
+                        </Link>
+                    </li>
                     <li>
                         <a href="#" className="inline-flex items-center gap-2 rounded-xl px-4 py-2 bg-red-500 text-white hover:bg-[#991B1B] transition focus-ring">
                         Download CV
@@ -36,11 +57,21 @@ export default function Navbar() {
             { open && (
                 <div id="drawer" className="md:hidden border-t border-border border-[#ebeef1] bg-[#f9fafb]">
                     <div className="max-w-6xl mx-auto px-6 py-4">
-                        <a href="#about" className="block py-2 hover:text-[#2563EB]">About</a>
-                        <a href="#projects" className="block py-2 hover:text-[#2563EB]">Projects</a>
-                        <a href="#skills" className="block py-2 hover:text-[#2563EB]">Skills</a>
-                        <a href="#experience" className="block py-2 hover:text-[#2563EB]">Experience</a>
-                        <a href="#contact" className="block py-2 hover:text-[#2563EB]">Contact</a>
+                        <Link className="block py-2 hover:text-[#2563EB]" href="#about" scroll={true}>
+                            About
+                        </Link>
+                        <Link className="block py-2 hover:text-[#2563EB]" href="#projects" scroll={true}>
+                            Projects
+                        </Link>
+                        <Link className="block py-2 hover:text-[#2563EB]" href="#skills" scroll={true}>
+                            Skills
+                        </Link>
+                        <Link className="block py-2 hover:text-[#2563EB]" href="#experience" scroll={true}>
+                            Experience
+                        </Link>
+                        <Link className="block py-2 hover:text-[#2563EB]" href="#contact" scroll={true}>
+                            Contact
+                        </Link>
                     </div>
                 </div>        
             )}
