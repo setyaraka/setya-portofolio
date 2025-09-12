@@ -71,11 +71,9 @@ body {
     100% { background-position: 0% 50%; }
   }
 
-  /* classes */
   .animate-fadeSlideUp { animation: fadeSlideUp .6s ease forwards; opacity: 0; }
   .animate-fadeScale   { animation: fadeScale   .6s ease forwards; opacity: 0; }
 
-  /* simple delay helpers */
   .animate-delay-1 { animation-delay: .08s; }
   .animate-delay-2 { animation-delay: .16s; }
   .animate-delay-3 { animation-delay: .24s; }

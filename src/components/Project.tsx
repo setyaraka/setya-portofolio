@@ -21,8 +21,9 @@ export default function Project(){
                     </div>
                     <div className="p-4">
                         <div className="flex items-center gap-2 mb-2">
-                            <span className="px-2 py-0.5 text-xs rounded-full bg-[#2563EB]-soft text-[#2563EB]">Next.js</span>
-                            <span className="px-2 py-0.5 text-xs rounded-full bg-success/15 text-success">Tailwind</span>
+                            <span className="px-2 py-0.5 text-xs rounded-full bg-fuchsia-500/15 text-fuchsia-600">Angular</span>
+                            <span className="px-2 py-0.5 text-xs rounded-full bg-sky-500/15 text-sky-600">Tailwind</span>
+                            <span className="px-2 py-0.5 text-xs rounded-full bg-sky-500/15 text-sky-600">NestJS</span>
                         </div>
                         <h3 className="font-semibold text-lg">Vaultiva — Secure File Sharing</h3>
                         <p className="mt-1 text-sm text-muted line-clamp-2">Password protected links, expiry, watermark, audit logs.</p>
@@ -37,7 +38,7 @@ export default function Project(){
                     <div className="aspect-[16/10] rounded-xl bg-gradient-to-br from-black/5 to-black/0 grid place-content-center text-muted">Screenshot</div>
                     <div className="p-4">
                     <div className="flex items-center gap-2 mb-2">
-                        <span className="px-2 py-0.5 text-xs rounded-full bg-fuchsia-500/15 text-fuchsia-600">Angular</span>
+                        <span className="px-2 py-0.5 text-xs rounded-full bg-fuchsia-500/15 text-fuchsia-600">ReactJS</span>
                         <span className="px-2 py-0.5 text-xs rounded-full bg-sky-500/15 text-sky-600">NestJS</span>
                     </div>
                     <h3 className="font-semibold text-lg">Sweet Memories — Web Diary</h3>
@@ -53,8 +54,8 @@ export default function Project(){
                     <div className="aspect-[16/10] rounded-xl bg-gradient-to-br from-black/5 to-black/0 grid place-content-center text-muted">Screenshot</div>
                     <div className="p-4">
                         <div className="flex items-center gap-2 mb-2">
-                            <span className="px-2 py-0.5 text-xs rounded-full bg-violet-500/15 text-violet-600">Next.js</span>
-                            <span className="px-2 py-0.5 text-xs rounded-full bg-amber-500/15 text-amber-600">LLM</span>
+                            <span className="px-2 py-0.5 text-xs rounded-full bg-violet-500/15 text-violet-600">React.js</span>
+                            <span className="px-2 py-0.5 text-xs rounded-full bg-amber-500/15 text-amber-600">Python</span>
                         </div>
                         <h3 className="font-semibold text-lg">Papra.ai — PDF Summarizer</h3>
                         <p className="mt-1 text-sm text-muted line-clamp-2">Chunked summarization pipeline with streaming UI.</p>

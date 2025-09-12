@@ -4,6 +4,14 @@ import { useState } from "react"
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
+
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = "./assets/Setya_Pangga_Raka_Pangestu_Fullstack_Engineer_CV.pdf";
+        link.download = "Setya_Pangga_Raka_Pangestu_CV.pdf";
+        link.click();
+    };
+
     return (
         <header className="sticky top-0 z-50 backdrop-blur-sm supports-[backdrop-filter]:bg-[#f9fafb]/70 border-b border-[#ebeef1]">
             <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -43,9 +51,9 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <a href="#" className="inline-flex items-center gap-2 rounded-xl px-4 py-2 bg-red-500 text-white hover:bg-[#991B1B] transition focus-ring">
-                        Download CV
-                        </a>
+                         <button onClick={handleDownload} className="rounded-xl px-5 py-3 bg-red-500 text-white hover:bg-[#991B1B] transition">
+                            Download CV
+                        </button>
                     </li>
                     {/* <li>
                         <button id="themeToggle" className="rounded-xl px-3 py-2 border border-border border-[#ebeef1] cursor-pointer focus-ring" aria-label="Toggle theme">Dark</button>
