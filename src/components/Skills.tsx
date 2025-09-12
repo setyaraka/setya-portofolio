@@ -14,7 +14,7 @@ export default function Skills(){
     return (
         <section id="skills" className="py-16 md:py-24 supports-[backdrop-filter]:bg-[#f9fafb] border-border border-[#ebeef1]">
             <div className="max-w-6xl mx-auto px-6">
-                <h2 className="font-display text-3xl md:text-4xl mb-8">Skills</h2>
+                <h2 className="font-display font-bold text-3xl md:text-4xl mb-8">Skills</h2>
                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
                     { skillList.map((skill, idx) => {
                         const rgb = hexToRgb(skill.borderColor);

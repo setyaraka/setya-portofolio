@@ -6,14 +6,24 @@ export default function Hero(){
         <section className="hero-bg relative">
             <div className="max-w-6xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
                 <div>
-                    <p className="text-sm uppercase tracking-widest text-muted mb-3">Fullstack Developer</p>
+                    {/* <p className="text-sm uppercase tracking-widest text-muted mb-3">Fullstack Developer</p>
                     <h1 className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl leading-[1.05]">
                         Hi, I’m <span className="text-red-500">Setya Pangga Raka Pangestu</span>.<br className="hidden sm:block" />
                         I build elegant, accessible web apps.
                     </h1>
                     <p className="mt-5 text-muted max-w-xl">
                         Focused on React/Next.js, Angular, TypeScript, and delightful user interfaces. Open for remote opportunities.
+                    </p> */}
+                    <p className="text-sm uppercase tracking-widest text-muted mb-3">Fullstack Developer</p>
+                        <h1 className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl leading-[1.05]">
+                        Hi, I’m <span className="text-red-500">Setya Pangga Raka Pangestu</span>.<br className="hidden sm:block" />
+                        I build elegant, scalable web apps end-to-end.
+                        </h1>
+                        <p className="mt-5 text-muted max-w-xl">
+                        Focused on React/Next.js, Angular, and TypeScript on the frontend — 
+                        plus NestJS, Prisma, and PostgreSQL on the backend. Open for remote opportunities.
                     </p>
+
                     <div className="mt-8 flex flex-wrap gap-3">
                         <a href="#projects" className="rounded-xl px-5 py-3 bg-red-500 text-white hover:bg-[#991B1B] active:bg-[#7F1D1D] transition focus-ring">View Projects</a>
                         <Link href="#contact" scroll={true} className="rounded-xl px-5 py-3 border border-border border-[#ebeef1] hover:border-[#2563EB] hover:text-[#2563EB] hover:border-accent transition focus-ring">
