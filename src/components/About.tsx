@@ -5,19 +5,18 @@ export default function About(){
             <div className="md:col-span-2">
                 <h2 className="font-display text-3xl md:text-4xl mb-4 font-bold">About Me</h2>
                 <p className="text-muted">
-                I’m a result-oriented web developer specializing in modern front-end architectures, design systems,
-                and performance-first UI engineering. I love building products that balance aesthetics and business impact.
+                    I’m a fullstack engineer with 2.5+ years of experience building secure, production-grade web applications. I specialize in modern front-end architectures (React, Angular) and backend systems (NestJS, Supabase, PostgreSQL), with a strong focus on security-first development and scalable workflows.
                 </p>
             </div>
             <div className="md:col-span-3">
                 <div className="grid sm:grid-cols-2 gap-4">
                 <div className="rounded-2xl border border-border border-[#ebeef1] bg-white p-5 backdrop-blur">
                     <p className="text-sm text-muted">Focus</p>
-                    <p className="font-semibold">UI Engineering, DX, Accessibility</p>
+                    <p className="font-semibold">Secure Web Apps, UI Engineering, Accessibility</p>
                 </div>
                 <div className="rounded-2xl border border-border border-[#ebeef1] bg-white p-5 backdrop-blur">
                     <p className="text-sm text-muted">Currently</p>
-                    <p className="font-semibold">Building Vaultiva & open to remote roles</p>
+                    <p className="font-semibold">Building Secure Web Apps & exploring AI Projects</p>
                 </div>
                 </div>
             </div>

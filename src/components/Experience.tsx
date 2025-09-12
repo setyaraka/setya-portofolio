@@ -12,7 +12,7 @@ export default function Experience(){
                             <li className="mt-2 text-gray-500">- Built <span className="font-bold">internal B2B backoffice systems</span> (React, Redux).</li>
                             <li className="mt-2 text-gray-500">- Implemented <span className="font-bold">Meeting Notes module</span>: autosave, offline retry, draft badges, participant roles.</li>
                             <li className="mt-2 text-gray-500">- Enhanced maintainability with <span className="font-bold">custom hooks & folder refactor</span>, reducing bugs & onboarding time.</li>
-                            <li className="mt-2 text-gray-500">- Strengthened app security: mitigated <span className="font-bold">HTML injection</span></li>
+                            <li className="mt-2 text-gray-500">- Strengthened app security: mitigated <span className="font-bold">HTML injection.</span></li>
                         </ul>
                     </li>
                 </ol>
